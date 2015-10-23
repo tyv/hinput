@@ -1,0 +1,66 @@
+.editable
+{
+  position: relative;
+
+  display: inline-block;
+
+  padding: 20px 20px 40px 20px;
+
+  background: #ccc;
+}
+
+.hinput
+{
+  overflow: auto;
+
+  width: 500px;
+  height: 200px;
+
+  background: #fff;
+
+  border: 2px solid rgba(0,0,0,0.3);
+}
+
+.hinput span
+{
+  white-space: pre-wrap;
+}
+
+.inserts
+{
+  position: absolute;
+
+  right: 20px;
+  bottom: 10px;
+}
+
+.smile
+{
+  display: inline-block;
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADA0lEQVR42pWTWUiUURTH//fbnOWbSVKbJte0NA1LKisDE5SUJu2haKFSSgJ7iXqohB58MCjMHoJefKhpJUpConLKomghpMU2sdLUzDUdM3O+0ZlvvqVvvhHbHzpwudx77vndw/+cQ/AXu3oIJHMejPYI8MHz0FcIz1oxUXQQ6u9vyc+HhqMgeRnU/ICauJdE5q4ilgX24L3qeTOgDt+7w6LzeON7pSV7zw/QFOD1KdApMy07MWvXMS6llCecTfOGhZyqH6o4CLHVKaC/Zl/3iOdkcjHkXwC+68ZiJJQ7uYRchlAUQE8DKD7kVARA/gZVUSB23ZPUrqpSY9HE+SmAeAuz/JTjlWlZeRSR27VAA8BEgdDmUAKyF5DcGsgHlZ6D8SdVbiNcGUw++nWAp858gEvaUcXG5wP+p5A07fYffICKinU6oLKyDtWHc8BAyyRsKQKfbkNsP11uWe89Ss6WgypaaHOZ580voC0cKI6FRNmxdvNNnHdu0wHFpRdw7dJqMMoAFDEA2SPC+76l4VHHoIPUVYLNjrc1Wefy6TQvabqFgbAztJ+StZTHQhpQVi2zNqiBIU1PP2SBwdgHofnN8OBiUlsBZmV8RGN4Ir/Ex/rwss2HnBWmkICEm6yCqAt5//E4lqQawPkNGO0Unr8e/pJFqstAtiy3nAmPmlnC2sbR2KKi8dU4NjooxMeyenxPbwCXXQqyMkxYnkYQGDRh1P35XH2zZ7suYt9Feo1BSb1uTggQyuBB75cZqL3Cor9VE01rGXsKj00bRMREuLVCWODtYtUJ8q4oZqtcrwNe1IAzylGu2KTMPGZaHwgzAkIUbTfplQ6WUVUoqNJ0SN+i0dPx7C5MbkfqDohTjdR2DrNlIakhLi1vLmP2aDfd2hImvcGGioPktaD77d0PNN9RkFyCj3/MQlMNYv2eyBOzE1cWWqPTacaqjwKksQGM9TXLHzsf3jBYh3cvKkPPX4cpaM79oGMiyWJFNBQaWD5Zb/OA0EY43w33qNq07UhoBv4J+F/7DpzVJ/gPpW7RAAAAAElFTkSuQmCC);
+}
+
+.user,
+.doc
+{
+  margin: 0 4px;
+}
+
+.doc:before
+{
+  display: inline-block;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+
+  vertical-align: middle;
+
+  background-image: url(data:image/gif;base64,R0lGODlhEAAQALMAAPv3+//u8P3i5P/d4fvV2dbW1vrExvWfouRxc3t7ef9RUfJEOt9GSP///wAAAAAAACH5BAUUAA0ALAAAAAAQABAAAARbcMlJJWh4ga05T1ijjQApJWjSlWy3JJtaWt4ZV/gbN2nv77ANQMAQGkHBDYEhMAKNjKgTgBQGigcGYfvcRA1ZxoKBoPI2BgVhsAkYEMVq1jAFFMwJIrsO9PlTEQA7);
+
+  content: '';
+}

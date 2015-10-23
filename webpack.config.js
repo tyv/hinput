@@ -12,7 +12,15 @@ module.exports = {
         loaders: [
             { test: /\.js?$/, loaders: ['react-hot', 'babel'], exclude: /node_modules/ },
             { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
-            { test: /\.css$/, loader: "style!css" }
+            {
+                test    : /\.css$/,
+                loaders : [
+                  'style-loader',
+                  'css-loader',
+                  'autoprefixer?browsers=last 2 version'
+                ]
+            }
+
         ]
     },
     plugins: [

@@ -1,16 +1,25 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom'
 
-// import LoginHandler from './components/Login.js';
+import '../css/styles.css'
 
-let App = React.createClass({
+import Editable from './Editable';
+
+class App extends React.Component {
+
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <div className="app">
-
+        <Editable/>
       </div>
-    );
+    )
   }
-});
 
-React.render(<App/>, document.querySelector('.app'));
+}
+
+
+ReactDOM.render(<App/>, document.querySelector('.app'))
